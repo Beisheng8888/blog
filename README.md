@@ -3,7 +3,7 @@ home: true
 layout: BlogHome
 icon: home
 title: 主页
-heroImage: /logo.svg
+heroImage: /logo.png
 heroText: 冀辉的博客
 heroFullScreen: true
 tagline: 物来顺应，既过不恋，当时不杂，未来不迎
@@ -33,7 +33,7 @@ projects:
     desc: 伙伴详细介绍
     link: https://你的伙伴链接
 
-  - icon: /logo.svg
+  - icon: /logo.png
     name: 自定义项目
     desc: 自定义详细介绍
     link: https://你的自定义链接

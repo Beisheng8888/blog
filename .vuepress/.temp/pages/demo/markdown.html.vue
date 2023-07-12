@@ -111,7 +111,7 @@
 <h4 id="卡片" tabindex="-1"><a class="header-anchor" href="#卡片" aria-hidden="true">#</a> 卡片</h4>
 <div class="language-card line-numbers-mode" data-ext="card"><pre v-pre class="language-card"><code>title: Mr.Hope
 desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.svg
+logo: https://mister-hope.com/logo.png
 link: https://mister-hope.com
 color: rgba(253, 230, 138, 0.15)
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
