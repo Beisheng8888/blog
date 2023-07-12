@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://github.com/Beisheng8888/blog/sitemap.xml
