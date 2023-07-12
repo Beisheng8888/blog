@@ -3,3 +3,27 @@ node_modules/
 ./.vuepress/.cache/
 ./.vuepress/.temp/
 ./.vuepress/dist/
+
+# VuePress files
+docs/.vuepress/.temp/
+docs/.vuepress/.cache/
+docs/.vuepress/dist/
+
+# Dist files
+dist/
+lib/
+.idea/
+# Test temp files
+**/__fixtures__/.temp/
+
+# Test coverage files
+coverage/
+
+# Node modules
+node_modules/
+
+# MacOS Desktop Services Store
+.DS_Store
+
+# Log files
+*.log
