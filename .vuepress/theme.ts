@@ -87,11 +87,7 @@ export default hopeTheme({
     plugins: {
         blog: true,
 
-        comment: {
-            // You should generate and use your own comment service
-            provider: "Waline",
-            serverURL: "https://waline-comment.vuejs.press",
-        },
+
 
         // all features are enabled for demo, only preserve features you need here
         mdEnhance: {

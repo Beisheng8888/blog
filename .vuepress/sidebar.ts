@@ -4,19 +4,20 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "如何使用",
+      text: "Java基础",
       icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      prefix: "src/Java基础/",
+      link: "src/Java基础/",
       children: "structure",
     },
     {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
+      text: "Java基础",
+      icon: "laptop-code",
+      prefix: "src/Java基础/",
+      link: "src/Java基础/",
       children: "structure",
-    },
-    "intro",
-    "slides",
+    }
+
+
   ],
 });
