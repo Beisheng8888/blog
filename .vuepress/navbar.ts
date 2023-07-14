@@ -6,16 +6,16 @@ export default navbar([
 
 
     {
-        text: "Java基础",
+        text: "JavaSE",
         icon: "pen-to-square",
-        prefix: "/src/Java基础/",
+        prefix: "/src/JavaSE/",
         children: [
             {
-                text: "苹果",
+                text: "JavaSE",
                 icon: "pen-to-square",
                 children: [
-                    {text: "苹果1", icon: "book", link: "1"},
-                    {text: "苹果2", icon: "pen-to-square", link: "2"},
+                    {text: "IO流01", icon: "book", link: "1"},
+                    {text: "IO流02", icon: "pen-to-square", link: "2"},
                     "3",
                     "4",
                 ],

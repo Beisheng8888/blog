@@ -4,17 +4,17 @@ export default sidebar({
   "/": [
     "",
     {
-      text: "Java基础",
+      text: "JavaSE",
       icon: "laptop-code",
-      prefix: "src/Java基础/",
-      link: "src/Java基础/",
+      prefix: "src/JavaSE/",
+      link: "src/JavaSE/",
       children: "structure",
     },
     {
-      text: "Java基础",
+      text: "JavaSE",
       icon: "laptop-code",
-      prefix: "src/Java基础/",
-      link: "src/Java基础/",
+      prefix: "src/JavaSE/",
+      link: "src/JavaSE/",
       children: "structure",
     }
 

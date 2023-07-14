@@ -8,7 +8,7 @@ category:
 
 ## 目录
 
-- [Markdown 展示](./Java基础/)
+- [Markdown 展示](./JavaSE/)
 
 - [页面展示](page.md)
 
