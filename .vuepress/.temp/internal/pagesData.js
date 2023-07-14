@@ -3,8 +3,6 @@ export const pagesData = {
   "v-184f4da6": () => import(/* webpackChunkName: "v-184f4da6" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/intro.html.js").then(({ data }) => data),
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
-  // path: /slides.html
-  "v-2e3eac9e": () => import(/* webpackChunkName: "v-2e3eac9e" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/slides.html.js").then(({ data }) => data),
   // path: /src/
   "v-744ccd44": () => import(/* webpackChunkName: "v-744ccd44" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/index.html.js").then(({ data }) => data),
   // path: /src/JavaSE/IO%E6%B5%8101.html
@@ -15,6 +13,10 @@ export const pagesData = {
   "v-546871b2": () => import(/* webpackChunkName: "v-546871b2" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/XML枚举注解.html.js").then(({ data }) => data),
   // path: /src/JavaSE/%E5%86%85%E9%83%A8%E7%B1%BB%E5%92%8CLambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html
   "v-5277e224": () => import(/* webpackChunkName: "v-5277e224" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/内部类和Lambda表达式.html.js").then(({ data }) => data),
+  // path: /src/JavaSE/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95%E6%97%A5%E5%BF%97.html
+  "v-4dd306af": () => import(/* webpackChunkName: "v-4dd306af" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/单元测试日志.html.js").then(({ data }) => data),
+  // path: /src/JavaSE/%E5%8F%AF%E5%8F%98%E5%8F%82%E6%95%B0.html
+  "v-5bc1edc1": () => import(/* webpackChunkName: "v-5bc1edc1" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/可变参数.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /src/JavaSE/

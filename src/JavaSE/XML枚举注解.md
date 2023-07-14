@@ -1,9 +1,8 @@
 ---
 icon: pen-to-square
 date: 2022-01-01
-sticky: true
 category:
-- JavaSE
+ - JavaSE
 
 ---
 
