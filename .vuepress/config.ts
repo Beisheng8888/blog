@@ -10,7 +10,6 @@ export default defineUserConfig({
   description: "冀辉的博客",
 
   theme,
-
   plugins: [
     docsearchPlugin({
       appId: "ZPWMH81IZL",
