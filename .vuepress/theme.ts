@@ -86,11 +86,33 @@ export default hopeTheme({
 
     plugins: {
         blog: true,
-
-
+        components: {
+            // 你想使用的组件
+            components: [
+                "ArtPlayer",
+                "AudioPlayer",
+                "Badge",
+                "BiliBili",
+                "CodePen",
+                "PDF",
+                "Replit",
+                "Share",
+                "SiteInfo",
+                "StackBlitz",
+                // "VidStack",
+                "VideoPlayer",
+                "XiGua",
+                "YouTube",
+            ],
+        },
 
         // all features are enabled for demo, only preserve features you need here
         mdEnhance: {
+            container: true,
+            footnote: true,
+            tabs: true, // 添加选项卡支持
+            tasklist: true,
+            card: true,
             align: true,
             attrs: true,
             chart: true,
@@ -101,9 +123,12 @@ export default hopeTheme({
             flowchart: true,
             gfm: true,
             imgLazyload: true,
+            // 启用图片标记
+            imgMark: true,
             imgSize: true,
             include: true,
             katex: true,
+            mathjax: true,
             mark: true,
             mermaid: true,
             playground: {
@@ -125,7 +150,6 @@ export default hopeTheme({
             ],
             sub: true,
             sup: true,
-            tabs: true,
             vPre: true,
             vuePlayground: true,
         },

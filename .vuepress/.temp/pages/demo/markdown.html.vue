@@ -109,12 +109,7 @@
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/image.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="卡片" tabindex="-1"><a class="header-anchor" href="#卡片" aria-hidden="true">#</a> 卡片</h4>
-<div class="language-card line-numbers-mode" data-ext="card"><pre v-pre class="language-card"><code>title: Mr.Hope
-desc: Where there is light, there is hope
-logo: https://mister-hope.com/logo.png
-link: https://mister-hope.com
-color: rgba(253, 230, 138, 0.15)
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><ul>
+<VPCard v-bind='{"title":"Mr.Hope","desc":"Where there is light, there is hope","logo":"https://mister-hope.com/logo.png","link":"https://mister-hope.com","color":"rgba(253, 230, 138, 0.15)"}' /><ul>
 <li><a href="https://theme-hope.vuejs.press/zh/guide/markdown/card.html" target="_blank" rel="noopener noreferrer">查看详情<ExternalLinkIcon/></a></li>
 </ul>
 <h4 id="图表" tabindex="-1"><a class="header-anchor" href="#图表" aria-hidden="true">#</a> 图表</h4>

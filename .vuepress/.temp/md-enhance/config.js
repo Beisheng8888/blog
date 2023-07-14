@@ -1,4 +1,5 @@
 import { defineClientConfig } from "@vuepress/client";
+import VPCard from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/VPCard.js";
 import ChartJS from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/ChartJS.js";
 import CodeTabs from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs.js";
 import { hasGlobalComponent } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-shared/lib/client/index.js";
@@ -22,9 +23,11 @@ import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/katex/dist/katex.
 import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/katex.scss";
 import { defineAsyncComponent } from "vue";
 import { injectVuePlaygroundConfig } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/index.js";
+import "./mathjax.css";
 
 export default defineClientConfig({
   enhance: ({ app }) => {
+    app.component("VPCard", VPCard)
     app.component("ChartJS", ChartJS)
     app.component("CodeTabs", CodeTabs);
     if(!hasGlobalComponent("CodeGroup", app)) app.component("CodeGroup", CodeGroup);

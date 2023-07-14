@@ -41,16 +41,14 @@ export const pagesData = {
   "v-7d70f19b": () => import(/* webpackChunkName: "v-7d70f19b" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/posts/banana/3.html.js").then(({ data }) => data),
   // path: /posts/banana/4.html
   "v-7f25ca3a": () => import(/* webpackChunkName: "v-7f25ca3a" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/posts/banana/4.html.js").then(({ data }) => data),
-  // path: /src/JavaSE/2.html
-  "v-a39d9904": () => import(/* webpackChunkName: "v-a39d9904" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/2.html.js").then(({ data }) => data),
-  // path: /src/JavaSE/3.html
-  "v-a033e7c6": () => import(/* webpackChunkName: "v-a033e7c6" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/3.html.js").then(({ data }) => data),
-  // path: /src/JavaSE/4.html
-  "v-9cca3688": () => import(/* webpackChunkName: "v-9cca3688" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/4.html.js").then(({ data }) => data),
   // path: /src/JavaSE/IO%E6%B5%8101.html
   "v-1542590e": () => import(/* webpackChunkName: "v-1542590e" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/IO流01.html.js").then(({ data }) => data),
   // path: /src/JavaSE/IO%E6%B5%8102.html
   "v-11d8a7d0": () => import(/* webpackChunkName: "v-11d8a7d0" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/IO流02.html.js").then(({ data }) => data),
+  // path: /src/JavaSE/XML%E6%9E%9A%E4%B8%BE%E6%B3%A8%E8%A7%A3.html
+  "v-546871b2": () => import(/* webpackChunkName: "v-546871b2" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/XML枚举注解.html.js").then(({ data }) => data),
+  // path: /src/JavaSE/%E5%86%85%E9%83%A8%E7%B1%BB%E5%92%8CLambda%E8%A1%A8%E8%BE%BE%E5%BC%8F.html
+  "v-5277e224": () => import(/* webpackChunkName: "v-5277e224" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/src/JavaSE/内部类和Lambda表达式.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /posts/
