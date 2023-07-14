@@ -1,6 +1,6 @@
 import { defineUserConfig } from "vuepress";
+import { docsearchPlugin } from '@vuepress/plugin-docsearch'
 import theme from "./theme.js";
-import docsearchPlugin from "@vuepress/plugin-docsearch";
 
 export default defineUserConfig({
   base: "/blog/",
@@ -10,13 +10,31 @@ export default defineUserConfig({
   description: "冀辉的博客",
 
   theme,
-
-
   plugins: [
-    /*docsearchPlugin({
-      appId: "LDBQGQC8Q9",
-      apiKey: "5c3a7145aeba231c3b85b742d24fc24f",
-      indexName: "mrhope",
+    docsearchPlugin({
+      appId: 'ZPWMH81IZL',
+      apiKey: '54839a12c4ddad67343aa198d41899b6',
+      indexName: 'beisheng8888io',
+      locales: {
+        '/': {
+          placeholder: '搜索文档',
+          translations: {
+            button: {
+              buttonText: '搜索文档',
+            },
+          },
+        },
+      },
+    }),
+  ],
+
+
+
+  /*plugins: [
+    docsearchPlugin({
+      appId: "ZPWMH81IZL",
+      apiKey: "c57af98e4bb019ea5825696e52359002",
+      indexName: "beisheng8888io",
       locales: {
         "/": {
           placeholder: "搜索",
@@ -60,7 +78,7 @@ export default defineUserConfig({
           },
         },
       },
-    }),*/
-  ],
+    }),
+  ],*/
 
 });
