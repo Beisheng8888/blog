@@ -32,6 +32,13 @@ export default sidebar({
       prefix: "src/基础微服务/",
       link: "src/基础微服务/",
       children: "structure",
+    },
+    {
+      text: "高级微服务",
+      icon: "laptop-code",
+      prefix: "src/高级微服务/",
+      link: "src/高级微服务/",
+      children: "structure",
     }
   ],
 });

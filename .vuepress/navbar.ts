@@ -97,7 +97,23 @@ export default navbar([
             }
         ],
     },
-
+    {
+        text: "高级微服务",
+        icon: "pen-to-square",
+        prefix: "/src/高级微服务/",
+        children: [
+            {
+                text: "高级微服务",
+                icon: "pen-to-square",
+                children: [
+                    {text: "RabbitMQ-高级篇", link: "RabbitMQ-高级篇"},
+                    {text: "Sentinel", link: "Sentinel"},
+                    {text: "分布式事务", link: "分布式事务"},
+                    {text: "分布式缓存", link: "分布式缓存"},
+                ],
+            }
+        ],
+    },
 
     {
         text: "V1 文档",
