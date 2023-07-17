@@ -127,7 +127,7 @@ export default navbar([
                     {text: "Git", link: "Git"},
                     {text: "Jmeter快速入门", link: "Jmeter快速入门"},
                     {text: "Kafka", link: "Kafka"},
-                    {text: "Linux-01", link: "Linux-01"},
+                    {text: "Linux-01" ,link: "Linux-01"},
                     {text: "Linux-02", link: "Linux-02"},
                     {text: "MongoDB", link: "MongoDB"},
                     {text: "Nacos", link: "Nacos"},

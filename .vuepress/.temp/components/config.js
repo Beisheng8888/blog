@@ -2,7 +2,7 @@ import { defineClientConfig } from "@vuepress/client";
 import { hasGlobalComponent } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useScriptTag } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/@vueuse/core/index.mjs";
+import { useStyleTag } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/@vueuse/core/index.mjs";
 import FontIcon from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 import ArtPlayer from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
 import AudioPlayer from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/AudioPlayer.js";
@@ -40,24 +40,9 @@ export default defineClientConfig({
     
   },
   setup: () => {
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/brands.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/solid.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
-    useScriptTag(
-  `https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/js/fontawesome.min.js`,
-  () => {},
-  { attrs: { "data-auto-replace-svg": "nest" } }
-);
-
+    useStyleTag(`\
+@import url("//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css");
+`);
   },
   rootComponents: [
     () => h(BackToTop, {}),

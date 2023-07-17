@@ -14,7 +14,8 @@ export default hopeTheme({
         url: "https://github.com/Beisheng8888",
     },
 
-    iconAssets: "fontawesome-with-brands",
+    iconAssets: "//at.alicdn.com/t/font_2410206_vuzkjonf4s9.css",
+    // iconAssets: "fontawesome-with-brands",
 
     logo: "/logo.png",
 
