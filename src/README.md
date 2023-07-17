@@ -10,7 +10,7 @@ category:
 
 - [JavaSE](./JavaSE/)
 
-- [页面展示](page.md)
+- [JavaWeb](./JavaWeb/)
 
 - [禁用展示](disable.md)
 

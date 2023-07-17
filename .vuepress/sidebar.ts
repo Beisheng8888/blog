@@ -13,13 +13,11 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "JavaSE",
+      text: "JavaWeb",
       icon: "laptop-code",
-      prefix: "src/JavaSE/",
-      link: "src/JavaSE/",
+      prefix: "src/JavaWeb/",
+      link: "src/JavaWeb/",
       children: "structure",
     }
-
-
   ],
 });

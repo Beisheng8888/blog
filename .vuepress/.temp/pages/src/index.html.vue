@@ -4,7 +4,7 @@
 <p><RouterLink to="/src/JavaSE/">JavaSE</RouterLink></p>
 </li>
 <li>
-<p><RouterLink to="/src/page.html">页面展示</RouterLink></p>
+<p><RouterLink to="/src/JavaWeb/">JavaWeb</RouterLink></p>
 </li>
 <li>
 <p><RouterLink to="/src/disable.html">禁用展示</RouterLink></p>

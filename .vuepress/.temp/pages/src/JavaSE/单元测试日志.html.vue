@@ -1,6 +1,5 @@
 <template><div><hr>
-<p>icon: pen-to-square<br>
-date: 2022-01-01<br>
+<p>date: 2022-01-01<br>
 category:</p>
 <ul>
 <li>JavaSE</li>
