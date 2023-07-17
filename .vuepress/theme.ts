@@ -18,7 +18,7 @@ export default hopeTheme({
 
     logo: "/logo.png",
 
-    repo: "Beisheng8888/VuepressHope",
+    repo: "Beisheng8888/blog",
 
     docsDir: "src",
 
