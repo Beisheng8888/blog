@@ -142,7 +142,23 @@ export default navbar([
             }
         ],
     },
-
+    {
+        text: "面试专题",
+        icon: "pen-to-square",
+        prefix: "/src/面试专题/",
+        children: [
+            {
+                text: "面试专题",
+                icon: "pen-to-square",
+                children: [
+                    {text: "基础篇", link: "基础篇"},
+                    {text: "并发篇", link: "并发篇"},
+                    {text: "框架篇", link: "框架篇"},
+                    {text: "虚拟机篇", link: "虚拟机篇"}
+                ],
+            }
+        ],
+    },
     {
         text: "V1 文档",
         icon: "book",
