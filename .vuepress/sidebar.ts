@@ -25,6 +25,13 @@ export default sidebar({
       prefix: "src/基础框架/",
       link: "src/基础框架/",
       children: "structure",
+    },
+    {
+      text: "基础微服务",
+      icon: "laptop-code",
+      prefix: "src/基础微服务/",
+      link: "src/基础微服务/",
+      children: "structure",
     }
   ],
 });

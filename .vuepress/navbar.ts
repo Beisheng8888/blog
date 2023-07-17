@@ -57,7 +57,6 @@ export default navbar([
             }
         ],
     },
-
     {
         text: "基础框架",
         icon: "pen-to-square",
@@ -69,7 +68,6 @@ export default navbar([
                 children: [
                     {text: "Maven高级", link: "Maven高级"},
                     {text: "MyBatisPlus", link: "MyBatisPlus"},
-
                     {text: "Spring01", link: "Spring01"},
                     {text: "Spring02", link: "Spring02"},
                     {text: "Spring03", link: "Spring03"},
@@ -82,6 +80,23 @@ export default navbar([
         ],
     },
 
+    {
+        text: "基础微服务",
+        icon: "pen-to-square",
+        prefix: "/src/基础微服务/",
+        children: [
+            {
+                text: "基础微服务",
+                icon: "pen-to-square",
+                children: [
+                    {text: "Docker", link: "Docker"},
+                    {text: "RabbitMQ", link: "RabbitMQ"},
+                    {text: "SpringCloud01", link: "SpringCloud01"},
+                    {text: "SpringCloud02", link: "SpringCloud02"},
+                ],
+            }
+        ],
+    },
 
 
     {
