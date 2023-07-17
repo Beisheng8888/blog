@@ -268,8 +268,6 @@ execution（public User com..UserService.findById(..))
 execution(* *..*Service+.*(..))
 ```
 
-![image-20210730153824117](assets/image-20210730153824117.png)
-
 #### 4.3 书写技巧
 
 - 所有代码按照标准规范开发，否则以下技巧全部失效

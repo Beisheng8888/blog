@@ -222,8 +222,7 @@
 <li>+：专用于匹配子类类型</li>
 </ul>
 <div class="language-java line-numbers-mode" data-ext="java"><pre v-pre class="language-java"><code><span class="token function">execution</span><span class="token punctuation">(</span><span class="token operator">*</span> <span class="token operator">*</span><span class="token punctuation">.</span><span class="token punctuation">.</span>*<span class="token class-name">Service</span><span class="token operator">+</span><span class="token punctuation">.</span>*<span class="token punctuation">(</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><figure><img src="@source/src/基础框架/assets/image-20210730153824117.png" alt="image-20210730153824117" tabindex="0" loading="lazy"><figcaption>image-20210730153824117</figcaption></figure>
-<h4 id="_4-3-书写技巧" tabindex="-1"><a class="header-anchor" href="#_4-3-书写技巧" aria-hidden="true">#</a> 4.3 书写技巧</h4>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h4 id="_4-3-书写技巧" tabindex="-1"><a class="header-anchor" href="#_4-3-书写技巧" aria-hidden="true">#</a> 4.3 书写技巧</h4>
 <ul>
 <li>所有代码按照标准规范开发，否则以下技巧全部失效</li>
 <li>描述切入点通**<mark>常描述接口</mark>**，而不描述实现类</li>
