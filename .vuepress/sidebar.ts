@@ -39,6 +39,13 @@ export default sidebar({
       prefix: "src/高级微服务/",
       link: "src/高级微服务/",
       children: "structure",
+    },
+    {
+      text: "🍇扩展",
+      icon: "laptop-code",
+      prefix: "src/必会工具/",
+      link: "src/必会工具/",
+      children: "structure",
     }
   ],
 });

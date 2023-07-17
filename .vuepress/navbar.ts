@@ -114,6 +114,34 @@ export default navbar([
             }
         ],
     },
+    {
+        text: "🍇扩展",
+        icon: "pen-to-square",
+        prefix: "/src/必会工具/",
+        children: [
+            {
+                text: "必会工具",
+                icon: "pen-to-square",
+                children: [
+                    {text: "freemarker和Minio", link: "freemarker和Minio"},
+                    {text: "Git", link: "Git"},
+                    {text: "Jmeter快速入门", link: "Jmeter快速入门"},
+                    {text: "Kafka", link: "Kafka"},
+                    {text: "Linux-01", link: "Linux-01"},
+                    {text: "Linux-02", link: "Linux-02"},
+                    {text: "MongoDB", link: "MongoDB"},
+                    {text: "Nacos", link: "Nacos"},
+                    {text: "Redis", link: "Redis"},
+                    {text: "xxl-Job", link: "xxl-Job"},
+                    {text: "其他", link: "其他"},
+                    {text: "分布式搜索引擎01", link: "分布式搜索引擎01"},
+                    {text: "分布式搜索引擎02", link: "分布式搜索引擎02"},
+                    {text: "分布式搜索引擎03", link: "分布式搜索引擎03"},
+                    {text: "集成minio", link: "集成minio"},
+                ],
+            }
+        ],
+    },
 
     {
         text: "V1 文档",
