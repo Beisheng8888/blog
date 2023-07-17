@@ -32,7 +32,6 @@ export default navbar([
             }
         ],
     },
-
     {
         text: "JavaWeb",
         icon: "pen-to-square",
@@ -58,6 +57,32 @@ export default navbar([
             }
         ],
     },
+
+    {
+        text: "基础框架",
+        icon: "pen-to-square",
+        prefix: "/src/基础框架/",
+        children: [
+            {
+                text: "基础框架",
+                icon: "pen-to-square",
+                children: [
+                    {text: "Maven高级", link: "Maven高级"},
+                    {text: "MyBatisPlus", link: "MyBatisPlus"},
+
+                    {text: "Spring01", link: "Spring01"},
+                    {text: "Spring02", link: "Spring02"},
+                    {text: "Spring03", link: "Spring03"},
+                    {text: "SpringBoot", link: "SpringBoot"},
+                    {text: "SpringMVC01", link: "SpringMVC01"},
+                    {text: "SpringMVC02", link: "SpringMVC02"},
+
+                ],
+            }
+        ],
+    },
+
+
 
     {
         text: "V1 文档",

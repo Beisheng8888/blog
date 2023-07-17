@@ -7,7 +7,7 @@
 <p><RouterLink to="/src/JavaWeb/">JavaWeb</RouterLink></p>
 </li>
 <li>
-<p><RouterLink to="/src/disable.html">禁用展示</RouterLink></p>
+<p><RouterLink to="/src/%E5%9F%BA%E7%A1%80%E6%A1%86%E6%9E%B6/">基础框架</RouterLink></p>
 </li>
 <li>
 <p><RouterLink to="/src/encrypt.html">加密展示</RouterLink></p>

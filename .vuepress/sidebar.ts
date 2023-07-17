@@ -18,6 +18,13 @@ export default sidebar({
       prefix: "src/JavaWeb/",
       link: "src/JavaWeb/",
       children: "structure",
+    },
+    {
+      text: "基础框架",
+      icon: "laptop-code",
+      prefix: "src/基础框架/",
+      link: "src/基础框架/",
+      children: "structure",
     }
   ],
 });

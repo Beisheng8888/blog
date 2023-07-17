@@ -12,6 +12,6 @@ category:
 
 - [JavaWeb](./JavaWeb/)
 
-- [禁用展示](disable.md)
+- [基础框架](./基础框架/)
 
 - [加密展示](encrypt.md)
