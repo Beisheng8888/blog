@@ -34,7 +34,7 @@ export default hopeTheme({
     displayFooter: true,
 
     blog: {
-        name: "JH",
+        name: "Jh",
         avatar: "/avatar.jpg",
         description: "专业JAVA",
         intro: "/intro.html",
@@ -76,7 +76,7 @@ export default hopeTheme({
 
     encrypt: {
         config: {
-            "/demo/encrypt.html": ["1234"],
+            "/src/必会工具/其他.html": ["1234"],
         },
     },
 
