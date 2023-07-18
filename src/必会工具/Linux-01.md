@@ -1,3 +1,10 @@
+---
+
+category:
+- 必备组件
+
+---
+
 # Linux-01
 
 - Linux简介

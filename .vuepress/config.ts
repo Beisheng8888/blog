@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/blog/",
 
   lang: "zh-CN",
-  title: "冀辉的博客",
-  description: "冀辉的博客",
+  title: "Mr.Jh",
+  description: "新版",
 
   theme,
   plugins: [

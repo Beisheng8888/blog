@@ -566,7 +566,7 @@ EL（全称Expression Language ）表达式语言，用于简化 JSP 页面内�
 
 EL 表达式的主要作用是 ==获取数据==。其实就是从域对象中获取数据，然后将数据展示在页面上。
 
-而 EL 表达式的语法也比较简单，==${expression}== 。例如：${brands} 就是获取域中存储的 key 为 brands 的数据。
+而 EL 表达式的语法也比较简单，`==${expression}==` 。例如：${brands} 就是获取域中存储的 key 为 brands 的数据。
 
 ### 5.2  代码演示
 

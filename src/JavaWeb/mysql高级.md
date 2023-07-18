@@ -3,6 +3,10 @@
 category:
 - JavaWeb
 
+tag:
+- MySQL
+
+
 ---
 
 # MySQL高级

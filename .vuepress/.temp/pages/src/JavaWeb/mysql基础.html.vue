@@ -1,4 +1,5 @@
-<template><div><h1 id="mysql基础" tabindex="-1"><a class="header-anchor" href="#mysql基础" aria-hidden="true">#</a> MySQL基础</h1>
+<template><div><p>_</p>
+<h1 id="mysql基础" tabindex="-1"><a class="header-anchor" href="#mysql基础" aria-hidden="true">#</a> MySQL基础</h1>
 <h2 id="_1-数据库相关概念" tabindex="-1"><a class="header-anchor" href="#_1-数据库相关概念" aria-hidden="true">#</a> 1，数据库相关概念</h2>
 <p>以前我们做系统，数据持久化的存储采用的是文件存储。存储到文件中可以达到系统关闭数据不会丢失的效果，当然文件存储也有它的弊端。</p>
 <p>假设在文件中存储以下的数据：</p>

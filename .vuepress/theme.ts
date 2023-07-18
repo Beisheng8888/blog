@@ -34,7 +34,7 @@ export default hopeTheme({
     displayFooter: true,
 
     blog: {
-        name: "冀辉",
+        name: "JH",
         avatar: "/avatar.jpg",
         description: "专业JAVA",
         intro: "/intro.html",

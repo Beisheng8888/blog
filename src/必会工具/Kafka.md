@@ -1,3 +1,10 @@
+---
+
+category:
+- 必备组件
+
+---
+
 # Kafka
 
 ## 1.kafka

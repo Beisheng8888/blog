@@ -1,3 +1,10 @@
+---
+
+category:
+- 必备组件
+
+---
+
 # MongoDB
 
 ## 1.1.1)安装MongoDB

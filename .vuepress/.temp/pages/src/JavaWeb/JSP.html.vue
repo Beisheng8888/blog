@@ -449,7 +449,7 @@
 <h3 id="_5-1-概述" tabindex="-1"><a class="header-anchor" href="#_5-1-概述" aria-hidden="true">#</a> 5.1  概述</h3>
 <p>EL（全称Expression Language ）表达式语言，用于简化 JSP 页面内的 Java 代码。</p>
 <p>EL 表达式的主要作用是 <mark>获取数据</mark>。其实就是从域对象中获取数据，然后将数据展示在页面上。</p>
-<p>而 EL 表达式的语法也比较简单，==<span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mrow><mi>e</mi><mi>x</mi><mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>i</mi><mi>o</mi><mi>n</mi></mrow><mo>=</mo><mo>=</mo><mtext>。例如：</mtext></mrow><annotation encoding="application/x-tex">{expression}== 。例如：</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.854em;vertical-align:-0.1944em;"></span><span class="mord"><span class="mord mathnormal">e</span><span class="mord mathnormal">x</span><span class="mord mathnormal">p</span><span class="mord mathnormal">ress</span><span class="mord mathnormal">i</span><span class="mord mathnormal">o</span><span class="mord mathnormal">n</span></span><span class="mspace" style="margin-right:0.2778em;"></span><span class="mrel">==</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord cjk_fallback">。例如：</span></span></span></span>{brands} 就是获取域中存储的 key 为 brands 的数据。</p>
+<p>而 EL 表达式的语法也比较简单，<code v-pre>==${expression}==</code> 。例如：${brands} 就是获取域中存储的 key 为 brands 的数据。</p>
 <h3 id="_5-2-代码演示" tabindex="-1"><a class="header-anchor" href="#_5-2-代码演示" aria-hidden="true">#</a> 5.2  代码演示</h3>
 <ul>
 <li>

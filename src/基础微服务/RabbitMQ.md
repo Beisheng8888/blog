@@ -1,3 +1,14 @@
+---
+
+category:
+- 基础微服务
+
+
+tag:
+- RabbitMQ
+
+---
+
 # RabbitMQ
 
 # 1.初识MQ
