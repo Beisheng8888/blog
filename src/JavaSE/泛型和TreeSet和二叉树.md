@@ -1,3 +1,11 @@
+---
+
+category:
+- JavaSE
+
+---
+
+
 # 泛型和TreeSet和二叉树
 
 ## 1.泛型

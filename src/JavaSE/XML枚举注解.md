@@ -1,7 +1,10 @@
 ---
-date: 2022-01-01
+
+title: XML&枚举&注解
+icon: at
 category:
- - JavaSE
+- JavaSE
+
 
 ---
 

@@ -4,7 +4,7 @@ layout: BlogHome
 icon: home
 title: 主页
 heroImage: /logo.png
-heroImageDark: /favicon.ico
+heroImageDark: /heroImageDark.png
 heroFullScreen: true
 bgImage: /bgImage.png
 bgImageDark : /bgImageDark.png

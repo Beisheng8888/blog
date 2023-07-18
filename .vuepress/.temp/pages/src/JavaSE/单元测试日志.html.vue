@@ -1,5 +1,5 @@
 <template><div><hr>
-<p>date: 2022-01-01<br>
+<p>icon: generic<br>
 category:</p>
 <ul>
 <li>JavaSE</li>

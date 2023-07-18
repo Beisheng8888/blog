@@ -5,36 +5,34 @@ export default navbar([
     "/src/",
 
     {
-        text: "JavaSE",
-        icon: "pen-to-square",
+        text: "🍈JavaSE",
         prefix: "/src/JavaSE/",
         children: [
             {
                 text: "JavaSE",
                 icon: "pen-to-square",
                 children: [
-                    {text: "IO流01",  link: "IO流01"},
-                    {text: "IO流02",  link: "IO流02"},
-                    {text: "XML&枚举&注解",  link: "XML枚举注解"},
-                    {text: "单元测试&日志",  link: "单元测试日志"},
-                    {text: "可变参数",  link: "可变参数"},
-                    {text: "多线程01",  link: "多线程01"},
-                    {text: "多线程02",  link: "多线程02"},
-                    {text: "常用API01",  link: "常用API01"},
-                    {text: "常用API02",  link: "常用API02"},
-                    {text: "泛型和TreeSet和二叉树",  link: "泛型和TreeSet和二叉树"},
-                    {text: "类加载器和反射",  link: "类加载器和反射"},
-                    {text: "红黑树",  link: "红黑树"},
-                    {text: "继承",  link: "继承"},
-                    {text: "网络编程",  link: "网络编程"},
-                    {text: "集合",  link: "集合"},
+                    {text: "IO流01", icon: "IO", link: "IO流01"},
+                    {text: "IO流02", icon: "IO", link: "IO流02"},
+                    {text: "XML&枚举&注解", icon: "at", link: "XML枚举注解"},
+                    {text: "单元测试&日志", link: "单元测试日志"},
+                    {text: "可变参数", link: "可变参数"},
+                    {text: "多线程01", link: "多线程01"},
+                    {text: "多线程02", link: "多线程02"},
+                    {text: "常用API01", link: "常用API01"},
+                    {text: "常用API02", link: "常用API02"},
+                    {text: "泛型和TreeSet和二叉树", link: "泛型和TreeSet和二叉树"},
+                    {text: "类加载器和反射", link: "类加载器和反射"},
+                    {text: "红黑树", link: "红黑树"},
+                    {text: "继承", link: "继承"},
+                    {text: "网络编程", link: "网络编程"},
+                    {text: "集合", link: "集合"},
                 ],
             }
         ],
     },
     {
-        text: "JavaWeb",
-        icon: "pen-to-square",
+        text: "🍉JavaWeb",
         prefix: "/src/JavaWeb/",
         children: [
             {
@@ -43,23 +41,22 @@ export default navbar([
                 children: [
                     {text: "Filter和Listener和Ajax", link: "Filter和Listener和Ajax"},
                     {text: "HTML和CSS", link: "HTML和CSS"},
-                    {text: "HTTP和Tomcat和Servlet",  link: "HTTP和Tomcat和Servlet"},
+                    {text: "HTTP和Tomcat和Servlet", link: "HTTP和Tomcat和Servlet"},
                     {text: "JavaScript", link: "JavaScript"},
-                    {text: "JDBC",  link: "JDBC"},
-                    {text: "JSP",  link: "JSP"},
-                    {text: "Maven和MyBatis",  link: "Maven和MyBatis"},
-                    {text: "mysql基础",  link: "mysql基础"},
-                    {text: "mysql高级",  link: "mysql高级"},
-                    {text: "Request和Response",  link: "Request和Response"},
-                    {text: "VUE和Element",  link: "VUE和Element"},
-                    {text: "会话技术",  link: "会话技术"}
+                    {text: "JDBC", link: "JDBC"},
+                    {text: "JSP", link: "JSP"},
+                    {text: "Maven和MyBatis", link: "Maven和MyBatis"},
+                    {text: "mysql基础", link: "mysql基础"},
+                    {text: "mysql高级", link: "mysql高级"},
+                    {text: "Request和Response", link: "Request和Response"},
+                    {text: "VUE和Element", link: "VUE和Element"},
+                    {text: "会话技术", link: "会话技术"}
                 ],
             }
         ],
     },
     {
-        text: "基础框架",
-        icon: "pen-to-square",
+        text: "🍊基础框架",
         prefix: "/src/基础框架/",
         children: [
             {
@@ -81,8 +78,7 @@ export default navbar([
     },
 
     {
-        text: "基础微服务",
-        icon: "pen-to-square",
+        text: "🍋基础微服务",
         prefix: "/src/基础微服务/",
         children: [
             {
@@ -98,8 +94,7 @@ export default navbar([
         ],
     },
     {
-        text: "高级微服务",
-        icon: "pen-to-square",
+        text: "🍌高级微服务",
         prefix: "/src/高级微服务/",
         children: [
             {
@@ -115,8 +110,7 @@ export default navbar([
         ],
     },
     {
-        text: "🍇扩展",
-        icon: "pen-to-square",
+        text: "🍍扩展",
         prefix: "/src/必会工具/",
         children: [
             {
@@ -127,7 +121,7 @@ export default navbar([
                     {text: "Git", link: "Git"},
                     {text: "Jmeter快速入门", link: "Jmeter快速入门"},
                     {text: "Kafka", link: "Kafka"},
-                    {text: "Linux-01" ,link: "Linux-01"},
+                    {text: "Linux-01", link: "Linux-01"},
                     {text: "Linux-02", link: "Linux-02"},
                     {text: "MongoDB", link: "MongoDB"},
                     {text: "Nacos", link: "Nacos"},
@@ -143,8 +137,7 @@ export default navbar([
         ],
     },
     {
-        text: "面试专题",
-        icon: "pen-to-square",
+        text: "🍇面试专题",
         prefix: "/src/面试专题/",
         children: [
             {
@@ -160,8 +153,7 @@ export default navbar([
         ],
     },
     {
-        text: "V1 文档",
-        icon: "book",
+        text: "🍒V1 文档",
         link: "https://beisheng8888.github.io/#/",
     },
 ]);
