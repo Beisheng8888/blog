@@ -1,3 +1,16 @@
+---
+
+category:
+- 高级微服务
+
+tag:
+- RabbitMQ
+
+
+
+---
+
+
 # RabbitMQ-高级篇
 
 
