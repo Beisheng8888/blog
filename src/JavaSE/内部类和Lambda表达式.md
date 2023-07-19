@@ -1,7 +1,6 @@
 ---
 
 title: 内部类和Lambda表达式
-icon: generic
 category:
 - JavaSE
 
