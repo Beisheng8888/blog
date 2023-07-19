@@ -70,7 +70,6 @@ export default hopeTheme({
             Gitee: "https://gitee.com/beisheng1332",
             GitHub: "https://github.com/Beisheng8888",
             Gmail: "mailto:jihui8784@gmail.com",
-            // QQ: "wpa.qq.com/msgrd?v=3&uin=1316645532&site=qq&menu=yes",
             QQ: "http://wpa.qq.com/msgrd?v=3&uin=1316645532&site=qq&menu=yes",
         },
     },
