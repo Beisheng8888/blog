@@ -183,6 +183,12 @@ export const pagesComponents = {
   "v-0f5c5c6f": defineAsyncComponent(() => import(/* webpackChunkName: "v-0f5c5c6f" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/category/必备组件/index.html.vue")),
   // path: /tag/springcloud/
   "v-323f2b96": defineAsyncComponent(() => import(/* webpackChunkName: "v-323f2b96" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/tag/springcloud/index.html.vue")),
+  // path: /category/%E9%9D%A2%E8%AF%95/
+  "v-116a43a7": defineAsyncComponent(() => import(/* webpackChunkName: "v-116a43a7" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/category/面试/index.html.vue")),
   // path: /tag/maven/
   "v-1e90405c": defineAsyncComponent(() => import(/* webpackChunkName: "v-1e90405c" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/tag/maven/index.html.vue")),
+  // path: /category/%E9%AB%98%E7%BA%A7%E5%BE%AE%E6%9C%8D%E5%8A%A1/
+  "v-cd9c3a38": defineAsyncComponent(() => import(/* webpackChunkName: "v-cd9c3a38" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/category/高级微服务/index.html.vue")),
+  // path: /tag/sentinel/
+  "v-310511fd": defineAsyncComponent(() => import(/* webpackChunkName: "v-310511fd" */"D:/MyProject/DOC/vuepress-theme-hope-blog/.vuepress/.temp/pages/tag/sentinel/index.html.vue")),
 }

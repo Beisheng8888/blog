@@ -1,22 +1,6 @@
 <template><div><h1 id="spring01" tabindex="-1"><a class="header-anchor" href="#spring01" aria-hidden="true">#</a> Spring01</h1>
 <h2 id="一、spring简介" tabindex="-1"><a class="header-anchor" href="#一、spring简介" aria-hidden="true">#</a> 一、Spring简介</h2>
 <h3 id="_1-spring介绍" tabindex="-1"><a class="header-anchor" href="#_1-spring介绍" aria-hidden="true">#</a> 1 Spring介绍</h3>
-<h4 id="问题导入" tabindex="-1"><a class="header-anchor" href="#问题导入" aria-hidden="true">#</a> 问题导入</h4>
-<p>我们为什么要学习Spring框架？</p>
-<h4 id="_1-1-为什么要学" tabindex="-1"><a class="header-anchor" href="#_1-1-为什么要学" aria-hidden="true">#</a> 1.1 为什么要学</h4>
-<ul>
-<li>
-<p>Spring技术是JavaEE开发必备技能，企业开发技术选型命中率&gt;<mark>90%</mark></p>
-</li>
-<li>
-<p>专业角度</p>
-<ul>
-<li><mark><strong>简化开发</strong></mark>，降低企业级开发的复杂性</li>
-<li><strong><mark>框架整合</mark></strong>，高效整合其他技术，提高企业级应用开发与运行效率</li>
-</ul>
-</li>
-</ul>
-<figure><img src="@source/src/基础框架/assets/image-20210729171139088.png" alt="image-20210729171139088" tabindex="0" loading="lazy"><figcaption>image-20210729171139088</figcaption></figure>
 <h4 id="_1-2-学什么" tabindex="-1"><a class="header-anchor" href="#_1-2-学什么" aria-hidden="true">#</a> 1.2 学什么</h4>
 <ul>
 <li>
@@ -44,13 +28,13 @@
 </ul>
 <h4 id="_1-3-怎么学" tabindex="-1"><a class="header-anchor" href="#_1-3-怎么学" aria-hidden="true">#</a> 1.3 怎么学</h4>
 <ul>
-<li>学习Spring框架设计思想</li>
-<li>学习基础操作，思考操作与思想间的联系</li>
-<li>学习案例，熟练应用操作的同时，体会思想</li>
+<li>Spring框架设计思想</li>
+<li>基础操作，思考操作与思想间的联系</li>
+<li>案例，熟练应用操作的同时，体会思想</li>
 </ul>
 <figure><img src="@source/src/基础框架/assets/image-20210729171346022.png" alt="image-20210729171346022" tabindex="0" loading="lazy"><figcaption>image-20210729171346022</figcaption></figure>
 <h3 id="_2-初识spring" tabindex="-1"><a class="header-anchor" href="#_2-初识spring" aria-hidden="true">#</a> 2 初识Spring</h3>
-<h4 id="问题导入-1" tabindex="-1"><a class="header-anchor" href="#问题导入-1" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入" tabindex="-1"><a class="header-anchor" href="#问题导入" aria-hidden="true">#</a> 问题导入</h4>
 <p>目前我们使用的是Spring几版本？</p>
 <h4 id="_2-1-spring家族" tabindex="-1"><a class="header-anchor" href="#_2-1-spring家族" aria-hidden="true">#</a> 2.1 Spring家族</h4>
 <ul>
@@ -61,7 +45,7 @@
 <h4 id="_2-2-spring发展史" tabindex="-1"><a class="header-anchor" href="#_2-2-spring发展史" aria-hidden="true">#</a> 2.2 Spring发展史</h4>
 <figure><img src="@source/src/基础框架/assets/image-20210729171926576.png" alt="image-20210729171926576" tabindex="0" loading="lazy"><figcaption>image-20210729171926576</figcaption></figure>
 <h3 id="_3-spring体系结构" tabindex="-1"><a class="header-anchor" href="#_3-spring体系结构" aria-hidden="true">#</a> 3 Spring体系结构</h3>
-<h4 id="问题导入-2" tabindex="-1"><a class="header-anchor" href="#问题导入-2" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-1" tabindex="-1"><a class="header-anchor" href="#问题导入-1" aria-hidden="true">#</a> 问题导入</h4>
 <p>通过系统架构图，Spring能不能进行数据层开发？Spring能不能进行web层开发？</p>
 <h4 id="_3-1-spring-framework系统架构图" tabindex="-1"><a class="header-anchor" href="#_3-1-spring-framework系统架构图" aria-hidden="true">#</a> 3.1 Spring Framework系统架构图</h4>
 <ul>
@@ -72,7 +56,7 @@
 <h4 id="_3-2-spring-framework学习路线" tabindex="-1"><a class="header-anchor" href="#_3-2-spring-framework学习路线" aria-hidden="true">#</a> 3.2 Spring Framework学习路线</h4>
 <figure><img src="@source/src/基础框架/assets/image-20210729172513669.png" alt="image-20210729172513669" tabindex="0" loading="lazy"><figcaption>image-20210729172513669</figcaption></figure>
 <h3 id="_4-spring核心概念" tabindex="-1"><a class="header-anchor" href="#_4-spring核心概念" aria-hidden="true">#</a> 4 Spring核心概念</h3>
-<h4 id="问题导入-3" tabindex="-1"><a class="header-anchor" href="#问题导入-3" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-2" tabindex="-1"><a class="header-anchor" href="#问题导入-2" aria-hidden="true">#</a> 问题导入</h4>
 <p>问题1：目前我们的代码存在什么问题以及怎么解决这些问题？</p>
 <p>问题2：请描述什么是IOC，什么是DI？</p>
 <h4 id="_4-1-目前我们代码存在的问题" tabindex="-1"><a class="header-anchor" href="#_4-1-目前我们代码存在的问题" aria-hidden="true">#</a> 4.1 目前我们代码存在的问题</h4>
@@ -125,7 +109,7 @@
 </ul>
 <h2 id="二、ioc和di入门案例【重点】" tabindex="-1"><a class="header-anchor" href="#二、ioc和di入门案例【重点】" aria-hidden="true">#</a> 二、IOC和DI入门案例【重点】</h2>
 <h3 id="_1-ioc入门案例【重点】" tabindex="-1"><a class="header-anchor" href="#_1-ioc入门案例【重点】" aria-hidden="true">#</a> 1 IOC入门案例【重点】</h3>
-<h4 id="问题导入-4" tabindex="-1"><a class="header-anchor" href="#问题导入-4" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-3" tabindex="-1"><a class="header-anchor" href="#问题导入-3" aria-hidden="true">#</a> 问题导入</h4>
 <p>&lt;bean&gt;标签中id属性和class属性的作用是什么？</p>
 <h4 id="_1-1-门案例思路分析" tabindex="-1"><a class="header-anchor" href="#_1-1-门案例思路分析" aria-hidden="true">#</a> 1.1 门案例思路分析</h4>
 <ol>
@@ -209,7 +193,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_1-4-运行结果" tabindex="-1"><a class="header-anchor" href="#_1-4-运行结果" aria-hidden="true">#</a> 1.4 运行结果</h4>
 <figure><img src="@source/src/基础框架/assets/image-20210729184337603.png" alt="image-20210729184337603" tabindex="0" loading="lazy"><figcaption>image-20210729184337603</figcaption></figure>
 <h3 id="_2-di入门案例【重点】" tabindex="-1"><a class="header-anchor" href="#_2-di入门案例【重点】" aria-hidden="true">#</a> 2 DI入门案例【重点】</h3>
-<h4 id="问题导入-5" tabindex="-1"><a class="header-anchor" href="#问题导入-5" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-4" tabindex="-1"><a class="header-anchor" href="#问题导入-4" aria-hidden="true">#</a> 问题导入</h4>
 <p>&lt;property&gt;标签中name属性和ref属性的作用是什么？</p>
 <h4 id="_2-1-di入门案例思路分析" tabindex="-1"><a class="header-anchor" href="#_2-1-di入门案例思路分析" aria-hidden="true">#</a> 2.1 DI入门案例思路分析</h4>
 <ol>
@@ -270,7 +254,7 @@
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h4 id="_2-4-图解演示" tabindex="-1"><a class="header-anchor" href="#_2-4-图解演示" aria-hidden="true">#</a> 2.4 图解演示</h4>
 <figure><img src="@source/src/基础框架/assets/image-20210729183104748.png" alt="image-20210729183104748" tabindex="0" loading="lazy"><figcaption>image-20210729183104748</figcaption></figure>
 <h2 id="三、bean的基础配置" tabindex="-1"><a class="header-anchor" href="#三、bean的基础配置" aria-hidden="true">#</a> 三、Bean的基础配置</h2>
-<h3 id="问题导入-6" tabindex="-1"><a class="header-anchor" href="#问题导入-6" aria-hidden="true">#</a> 问题导入</h3>
+<h3 id="问题导入-5" tabindex="-1"><a class="header-anchor" href="#问题导入-5" aria-hidden="true">#</a> 问题导入</h3>
 <p>问题1：在&lt;bean&gt;标签上如何配置别名？</p>
 <p>问题2：Bean的默认作用范围是什么？如何修改？</p>
 <h3 id="_1-bean基础配置【重点】" tabindex="-1"><a class="header-anchor" href="#_1-bean基础配置【重点】" aria-hidden="true">#</a> 1 Bean基础配置【重点】</h3>
@@ -297,7 +281,7 @@
 <p>最后给大家说明一下：在我们的实际开发当中，绝大部分的Bean是单例的，也就是说绝大部分Bean不需要配置scope属性。</p>
 </blockquote>
 <h2 id="四、bean的实例化" tabindex="-1"><a class="header-anchor" href="#四、bean的实例化" aria-hidden="true">#</a> 四、Bean的实例化</h2>
-<h3 id="问题导入-7" tabindex="-1"><a class="header-anchor" href="#问题导入-7" aria-hidden="true">#</a> 问题导入</h3>
+<h3 id="问题导入-6" tabindex="-1"><a class="header-anchor" href="#问题导入-6" aria-hidden="true">#</a> 问题导入</h3>
 <p>Bean的实例化方式有几种？</p>
 <h3 id="_1-bean是如何创建的【理解】" tabindex="-1"><a class="header-anchor" href="#_1-bean是如何创建的【理解】" aria-hidden="true">#</a> 1 Bean是如何创建的【理解】</h3>
 <p>bean本质上就是对象，创建bean使用构造方法完成</p>
@@ -455,7 +439,7 @@
 <p>使用之前的AppForInstanceUser测试类去运行看结果就行了。注意配置文件中id=&quot;userDao&quot;是否重复。</p>
 </blockquote>
 <h2 id="五、bean的生命周期【了解】" tabindex="-1"><a class="header-anchor" href="#五、bean的生命周期【了解】" aria-hidden="true">#</a> 五、Bean的生命周期【了解】</h2>
-<h3 id="问题导入-8" tabindex="-1"><a class="header-anchor" href="#问题导入-8" aria-hidden="true">#</a> 问题导入</h3>
+<h3 id="问题导入-7" tabindex="-1"><a class="header-anchor" href="#问题导入-7" aria-hidden="true">#</a> 问题导入</h3>
 <p>问题1：多例的Bean能够配置并执行销毁的方法？</p>
 <p>问题2：如何做才执行Bean销毁的方法？</p>
 <h3 id="_1-生命周期相关概念介绍" tabindex="-1"><a class="header-anchor" href="#_1-生命周期相关概念介绍" aria-hidden="true">#</a> 1 生命周期相关概念介绍</h3>
@@ -549,7 +533,7 @@
 <span class="token punctuation">}</span>
 </code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="六、依赖注入-di配置" tabindex="-1"><a class="header-anchor" href="#六、依赖注入-di配置" aria-hidden="true">#</a> 六、依赖注入(DI配置)</h2>
 <h3 id="_1-依赖注入方式【重点】" tabindex="-1"><a class="header-anchor" href="#_1-依赖注入方式【重点】" aria-hidden="true">#</a> 1 依赖注入方式【重点】</h3>
-<h4 id="问题导入-9" tabindex="-1"><a class="header-anchor" href="#问题导入-9" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-8" tabindex="-1"><a class="header-anchor" href="#问题导入-8" aria-hidden="true">#</a> 问题导入</h4>
 <p>依赖注入有几种方式？</p>
 <h4 id="_1-1-依赖注入的两种方式" tabindex="-1"><a class="header-anchor" href="#_1-1-依赖注入的两种方式" aria-hidden="true">#</a> 1.1 依赖注入的两种方式</h4>
 <ul>
@@ -561,14 +545,14 @@
 引用类型</li>
 </ul>
 <h4 id="_1-2-setter方式注入" tabindex="-1"><a class="header-anchor" href="#_1-2-setter方式注入" aria-hidden="true">#</a> 1.2 setter方式注入</h4>
-<h5 id="问题导入-10" tabindex="-1"><a class="header-anchor" href="#问题导入-10" aria-hidden="true">#</a> 问题导入</h5>
+<h5 id="问题导入-9" tabindex="-1"><a class="header-anchor" href="#问题导入-9" aria-hidden="true">#</a> 问题导入</h5>
 <p>setter方式注入使用什么子标签？</p>
 <h5 id="引用类型" tabindex="-1"><a class="header-anchor" href="#引用类型" aria-hidden="true">#</a> 引用类型</h5>
 <figure><img src="@source/src/基础框架/assets/image-20210729203626540.png" alt="image-20210729203626540" tabindex="0" loading="lazy"><figcaption>image-20210729203626540</figcaption></figure>
 <h5 id="简单类型" tabindex="-1"><a class="header-anchor" href="#简单类型" aria-hidden="true">#</a> 简单类型</h5>
 <figure><img src="@source/src/基础框架/assets/image-20210729203728173.png" alt="image-20210729203728173" tabindex="0" loading="lazy"><figcaption>image-20210729203728173</figcaption></figure>
 <h4 id="_1-3-构造方式注入" tabindex="-1"><a class="header-anchor" href="#_1-3-构造方式注入" aria-hidden="true">#</a> 1.3 构造方式注入</h4>
-<h5 id="问题导入-11" tabindex="-1"><a class="header-anchor" href="#问题导入-11" aria-hidden="true">#</a> 问题导入</h5>
+<h5 id="问题导入-10" tabindex="-1"><a class="header-anchor" href="#问题导入-10" aria-hidden="true">#</a> 问题导入</h5>
 <p>构造方式注入使用什么子标签？</p>
 <h5 id="引用类型-1" tabindex="-1"><a class="header-anchor" href="#引用类型-1" aria-hidden="true">#</a> 引用类型</h5>
 <figure><img src="@source/src/基础框架/assets/image-20210729203859855.png" alt="image-20210729203859855" tabindex="0" loading="lazy"><figcaption>image-20210729203859855</figcaption></figure>
@@ -586,7 +570,7 @@
 <li><strong><mark>自己开发的模块推荐使用setter注入</mark></strong></li>
 </ol>
 <h3 id="_2-依赖自动装配【理解】" tabindex="-1"><a class="header-anchor" href="#_2-依赖自动装配【理解】" aria-hidden="true">#</a> 2 依赖自动装配【理解】</h3>
-<h4 id="问题导入-12" tabindex="-1"><a class="header-anchor" href="#问题导入-12" aria-hidden="true">#</a> 问题导入</h4>
+<h4 id="问题导入-11" tabindex="-1"><a class="header-anchor" href="#问题导入-11" aria-hidden="true">#</a> 问题导入</h4>
 <p>如何配置按照类型自动装配？</p>
 <h4 id="_2-1-自动装配概念" tabindex="-1"><a class="header-anchor" href="#_2-1-自动装配概念" aria-hidden="true">#</a> 2.1 自动装配概念</h4>
 <ul>

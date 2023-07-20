@@ -11,5 +11,5 @@ bgImageDark : /bgImageDark.png
 heroText: Mr.Jh
 tagline: 物来顺应，既过不恋，当时不杂，未来不迎
 
-footer: Mr.Jh
+footer: Theme by vuepress-theme-hope-blog
 ---
