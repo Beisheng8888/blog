@@ -1,9 +1,11 @@
+---
+
+category:
+- 必备组件
+
+---
+
 # Sentinel 规则持久化
-
-
-
-
-
 
 
 ## 一、修改order-service服务
