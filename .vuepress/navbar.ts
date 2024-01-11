@@ -124,6 +124,8 @@ export default navbar([
                     {text: "Linux-01", link: "Linux-01"},
                     {text: "Linux-02", link: "Linux-02"},
                     {text: "MongoDB", link: "MongoDB"},
+                    {text: "Mysql读写分离", link: "Mysql读写分离"},
+                    {text: "Mysql高性能优化方案", link: "Mysql高性能优化方案"},
                     {text: "Nacos", link: "Nacos"},
                     {text: "Redis", link: "Redis"},
                     {text: "Redis集群", link: "Redis集群"},
