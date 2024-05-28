@@ -74,11 +74,12 @@ export default hopeTheme({
         },
     },
 
-    encrypt: {
+    //注销掉加密
+    /*encrypt: {
         config: {
-            "/src/必会工具/其他.html": ["1234"],
+            "/src/必会工具/其他.html": ["1332"],
         },
-    },
+    },*/
 
     // page meta
     metaLocales: {
