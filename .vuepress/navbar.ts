@@ -86,6 +86,7 @@ export default navbar([
                 icon: "pen-to-square",
                 children: [
                     {text: "Docker", link: "Docker"},
+                    {text: "Docker应用", link: "Docker应用"},
                     {text: "RabbitMQ", link: "RabbitMQ"},
                     {text: "SpringCloud01", link: "SpringCloud01"},
                     {text: "SpringCloud02", link: "SpringCloud02"},
