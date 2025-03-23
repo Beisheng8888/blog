@@ -1549,3 +1549,53 @@ public class MinioTest {
     }
 }
 ```
+
+
+
+对demo 桶的读写和删除权限
+
+```json
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "s3:DeleteObject",
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+                "s3:ListBucket",
+                "s3:PutObject"
+            ],
+            "Resource": [
+                "arn:aws:s3:::demo/*"
+            ]
+        }
+    ]
+}
+```
+
+minio 控制台用户策略  配置  只允许访问testpolicy 桶
+
+```json
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+                "s3:ListAllMyBuckets",
+                "s3:ListBucket",
+                "s3:GetBucketLocation",
+                "s3:GetObject",
+				"s3:PutObject",
+                "s3:DeleteObject"
+      ],
+      "Resource": [
+        "arn:aws:s3:::testpolicy/*"
+      ]
+    }
+  ]
+}
+```
+

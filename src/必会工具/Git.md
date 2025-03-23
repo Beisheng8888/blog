@@ -211,6 +211,8 @@ https://gitee.com/beisheng/myGitRepo.git
 
 ## 4. Git常用命令
 
+![image-20210926102305539](assets/git命令.png)
+
 ### 4.1 Git全局设置
 
 当安装Git后首先要做的事情是设置用户名称和email地址。这是非常重要的，因为每次Git提交都会使用该用户信息。在Git 命令行中执行下面命令：
@@ -391,6 +393,7 @@ git log 命令的作用是查看提交日志
 - git clone 从远程仓库克隆
 - git pull 从远程仓库拉取
 - git push 推送到远程仓库
+- git remote -v  git remote rm origin   删除远程仓库地址
 
 #### 4.6.1 git remote
 
