@@ -14,7 +14,7 @@ tag:
 
 启动docker 
 
-```cmd
+```sh
 systemctl start docker
 ```
 
@@ -23,7 +23,7 @@ systemctl start docker
 
 ## Nginx
 
-```cmd
+```sh
 docker run -d \
 -p 14066:14066 \
 -p 80:18080 \
@@ -116,7 +116,7 @@ docker logs --tail=10  --since 1h tomcat8
 
 ## ES
 
-```cmd
+```sh
 docker run -d \
 	--name es \
     -e "ES_JAVA_OPTS=-Xms512m -Xmx512m" \
@@ -134,7 +134,7 @@ elasticsearch:7.14.0
 
 ## Mysql8.3.0
 
-```cmd
+```sh
 docker run \
 -p 23088:3306 \
 --restart=always \
@@ -209,7 +209,7 @@ docker cp ./default.json onlyoffice:/etc/onlyoffice/documentserver/default.json
 
 ## Rabbitmq
 
-```cmd
+```sh
 docker run \
 -e RABBITMQ_DEFAULT_USER=root \
 -e RABBITMQ_DEFAULT_PASS=1234 \
