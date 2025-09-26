@@ -39,6 +39,23 @@ docker run -d \
 nginx
 ```
 
+
+```sh
+docker run -d \
+-p 14066:14066 \
+-p 80:18080 \
+-p 9031:9031 \
+--name nginx-latest \
+--restart=always \
+-v /usr/ysjdata/ysjNginx/html:/usr/share/nginx/html \
+-v /usr/ysjdata/ysjNginx/conf/nginx.conf:/etc/nginx/nginx.conf \
+-v /usr/ysjdata/ysjNginx/conf/vhost:/etc/nginx/conf.d \
+-v /usr/local/h5yjNginx/logs:/var/log/nginx \
+-v /etc/localtime:/etc/localtime:ro \
+-v /h5:/yjmp4 \
+nginx:latest
+```
+
 docker  部署nginx  开放宿主机的端口号 到容器内部
 
 在nginx.conf  
