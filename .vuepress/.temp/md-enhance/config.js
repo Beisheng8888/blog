@@ -1,28 +1,28 @@
 import { defineClientConfig } from "@vuepress/client";
-import VPCard from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/VPCard.js";
-import ChartJS from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/ChartJS.js";
-import CodeTabs from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs.js";
-import { hasGlobalComponent } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-shared/lib/client/index.js";
-import { CodeGroup, CodeGroupItem } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/compact/index.js";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/container/index.scss";
-import CodeDemo from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo.js";
-import ECharts from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/ECharts.js";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
-import FlowChart from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/FlowChart.js";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/footnote.scss";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/image-mark.scss"
-import Mermaid from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid.js";
-import { injectMermaidConfig } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client//index.js";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/reveal.js/dist/reveal.css";
-import Presentation from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Presentation.js";
-import { injectRevealConfig } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/index.js";
-import Playground from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Playground.js";
-import Tabs from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs.js";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tasklist.scss";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/katex/dist/katex.min.css";
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/katex.scss";
+import VPCard from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/VPCard.js";
+import ChartJS from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/ChartJS.js";
+import CodeTabs from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeTabs.js";
+import { hasGlobalComponent } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-shared/lib/client/index.js";
+import { CodeGroup, CodeGroupItem } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/compact/index.js";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/container/index.scss";
+import CodeDemo from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/CodeDemo.js";
+import ECharts from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/ECharts.js";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/figure.scss";
+import FlowChart from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/FlowChart.js";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/footnote.scss";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/image-mark.scss"
+import Mermaid from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Mermaid.js";
+import { injectMermaidConfig } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client//index.js";
+import "/Users/beisheng/MyProjects/blog/node_modules/reveal.js/dist/reveal.css";
+import Presentation from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Presentation.js";
+import { injectRevealConfig } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/index.js";
+import Playground from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Playground.js";
+import Tabs from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/Tabs.js";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/tasklist.scss";
+import "/Users/beisheng/MyProjects/blog/node_modules/katex/dist/katex.min.css";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/styles/katex.scss";
 import { defineAsyncComponent } from "vue";
-import { injectVuePlaygroundConfig } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/index.js";
+import { injectVuePlaygroundConfig } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/index.js";
 import "./mathjax.css";
 
 export default defineClientConfig({
@@ -42,7 +42,7 @@ export default defineClientConfig({
     app.component("Playground", Playground);
     app.component("Tabs", Tabs);
     injectVuePlaygroundConfig(app);
-    app.component("VuePlayground", defineAsyncComponent(() => import("D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/VuePlayground.js")));
+    app.component("VuePlayground", defineAsyncComponent(() => import("/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-md-enhance/lib/client/components/VuePlayground.js")));
   },
   setup: () => {
 

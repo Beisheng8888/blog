@@ -1,25 +1,25 @@
 import { defineClientConfig } from "@vuepress/client";
-import { hasGlobalComponent } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-shared/lib/client/index.js";
+import { hasGlobalComponent } from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-shared/lib/client/index.js";
 import { h } from "vue";
 
-import { useStyleTag } from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/@vueuse/core/index.mjs";
-import FontIcon from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import ArtPlayer from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
-import AudioPlayer from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/AudioPlayer.js";
-import Badge from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import BiliBili from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
-import CodePen from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
-import PDF from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
-import Replit from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/Replit.js";
-import Share from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
-import SiteInfo from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
-import StackBlitz from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
-import VideoPlayer from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/VideoPlayer.js";
-import XiGua from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
-import YouTube from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/YouTube.js";
-import BackToTop from "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useStyleTag } from "/Users/beisheng/MyProjects/blog/node_modules/@vueuse/core/index.mjs";
+import FontIcon from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import ArtPlayer from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/ArtPlayer.js";
+import AudioPlayer from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/AudioPlayer.js";
+import Badge from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import BiliBili from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/BiliBili.js";
+import CodePen from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/CodePen.js";
+import PDF from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/PDF.js";
+import Replit from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/Replit.js";
+import Share from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/Share.js";
+import SiteInfo from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/SiteInfo.js";
+import StackBlitz from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/StackBlitz.js";
+import VideoPlayer from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/VideoPlayer.js";
+import XiGua from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/XiGua.js";
+import YouTube from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/YouTube.js";
+import BackToTop from "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
-import "D:/MyProject/DOC/vuepress-theme-hope-blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "/Users/beisheng/MyProjects/blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

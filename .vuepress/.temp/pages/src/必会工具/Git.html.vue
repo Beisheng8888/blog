@@ -130,6 +130,7 @@
 <p>可以看到邀请用户有多种方式：链接邀请、直接添加、通过仓库邀请成员</p>
 <p><strong>注意</strong>：被邀请用户必须为码云的注册用户，否则无法成为仓库成员</p>
 <h2 id="_4-git常用命令" tabindex="-1"><a class="header-anchor" href="#_4-git常用命令" aria-hidden="true">#</a> 4. Git常用命令</h2>
+<figure><img src="@source/src/必会工具/assets/git命令.png" alt="image-20210926102305539" tabindex="0" loading="lazy"><figcaption>image-20210926102305539</figcaption></figure>
 <h3 id="_4-1-git全局设置" tabindex="-1"><a class="header-anchor" href="#_4-1-git全局设置" aria-hidden="true">#</a> 4.1 Git全局设置</h3>
 <p>当安装Git后首先要做的事情是设置用户名称和email地址。这是非常重要的，因为每次Git提交都会使用该用户信息。在Git 命令行中执行下面命令：</p>
 <p><strong>设置用户信息</strong></p>
@@ -237,6 +238,7 @@
 <li>git clone 从远程仓库克隆</li>
 <li>git pull 从远程仓库拉取</li>
 <li>git push 推送到远程仓库</li>
+<li>git remote -v  git remote rm origin   删除远程仓库地址</li>
 </ul>
 <h4 id="_4-6-1-git-remote" tabindex="-1"><a class="header-anchor" href="#_4-6-1-git-remote" aria-hidden="true">#</a> 4.6.1 git remote</h4>
 <p>如果要查看已经配置的远程仓库服务器，可以执行 git remote 命令，它会列出每一个远程服务器的简称。</p>

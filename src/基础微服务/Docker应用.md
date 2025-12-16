@@ -204,12 +204,61 @@ docker run -i -t  -d -p 8088:80 --restart=always \
 
 编辑docker中`/etc/onlyoffice/documentserver/default.json`下的内容
 
+这里是为了处理下载失败的原因
 ```json
 "request-filtering-agent" : {
         "allowPrivateIPAddress": true,
         "allowMetaIPAddress": true
 },
 ```
+这里是为了解决 文件大小超出了为服务器设置的限制
+```json
+"FileConverter": {
+		"converter": {
+			"maxDownloadBytes": 524288000, // 这里要修改
+			"downloadTimeout": {
+				"connectionAndInactivity": "2m",
+				"wholeCycle": "2m"
+			},
+			"downloadAttemptMaxCount": 3,
+			"downloadAttemptDelay": 1000,
+			"maxprocesscount": 1,
+			"fontDir": "null",
+			"presentationThemesDir": "null",
+			"x2tPath": "null",
+			"docbuilderPath": "null",
+			"args": "",
+			"spawnOptions": {},
+			"errorfiles": "",
+			"streamWriterBufferSize": 8388608,
+			"maxRedeliveredCount": 2,
+			"inputLimits": [
+				{
+				"type": "docx;dotx;docm;dotm",
+				"zip": {
+					"uncompressed": "5000MB",  // 修改
+					"template": "*.xml"
+				}
+				},
+				{
+				"type": "xlsx;xltx;xlsm;xltm",
+				"zip": {
+					"uncompressed": "1000MB", // 修改
+					"template": "*.xml"
+				}
+				},
+				{
+				"type": "pptx;ppsx;potx;pptm;ppsm;potm",
+				"zip": {
+					"uncompressed": "1000MB", // 修改
+					"template": "*.xml"
+				}
+				}
+			]
+		}
+	}
+```
+
 
 ```sh
 docker cp onlyoffice:/etc/onlyoffice/documentserver/default.json ./
@@ -218,6 +267,18 @@ vim default.json
 docker cp ./default.json onlyoffice:/etc/onlyoffice/documentserver/default.json
 ```
 
+或者
+一、从docker 容器中下载 /etc/onlyoffice/documentserver/default.json
+
+```sh
+docker cp  myonlyoffice:/etc/onlyoffice/documentserver/default.json /usr/local/default.json
+```
+二、将修改好的配置文件上传到容器中
+
+```sh
+docker cp /usr/local/default.json myonlyoffice:/etc/onlyoffice/documentserver/default.json
+docker restart  myonlyoffice
+```
 
 
 
