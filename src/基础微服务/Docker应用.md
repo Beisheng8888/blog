@@ -200,6 +200,18 @@ docker run -i -t  -d -p 8088:80 --restart=always \
   onlyoffice/documentserver:8.2.2
 ```
 
+9.2.0版本 在MAC上创建
+```
+docker run -i -t -d -p 8089:80 --restart=always \
+  -v /Users/beisheng/MyProjects/docker-con/onlyoffice-9.2/DocumentServer/logs:/var/log/onlyoffice \
+  -v /Users/beisheng/MyProjects/docker-con/onlyoffice-9.2/DocumentServer/data:/var/www/onlyoffice/Data \
+  -v /Users/beisheng/MyProjects/docker-con/onlyoffice-9.2/DocumentServer/lib:/var/lib/onlyoffice \
+  -v /Users/beisheng/MyProjects/docker-con/onlyoffice-9.2/DocumentServer/db:/var/lib/postgresql \
+  --name onlyoffice-9.2 \
+  -e JWT_ENABLED=false \
+  onlyoffice/documentserver
+```
+
 解决文件下载失败问题
 
 编辑docker中`/etc/onlyoffice/documentserver/default.json`下的内容
