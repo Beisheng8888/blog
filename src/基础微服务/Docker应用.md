@@ -283,13 +283,14 @@ docker cp ./default.json onlyoffice:/etc/onlyoffice/documentserver/default.json
 一、从docker 容器中下载 /etc/onlyoffice/documentserver/default.json
 
 ```sh
-docker cp  myonlyoffice:/etc/onlyoffice/documentserver/default.json /usr/local/default.json
+docker cp  onlyoffice-9.2:/etc/onlyoffice/documentserver/default.json /usr/local/research/onlyoffice-9.2.0/default.json
 ```
 二、将修改好的配置文件上传到容器中
 
 ```sh
-docker cp /usr/local/default.json myonlyoffice:/etc/onlyoffice/documentserver/default.json
-docker restart  myonlyoffice
+docker cp /usr/local/research/onlyoffice-9.2.0/default.json onlyoffice-9.2:/etc/onlyoffice/documentserver/default.json
+
+docker restart  onlyoffice-9.2
 ```
 
 
