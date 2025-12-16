@@ -313,7 +313,18 @@ docker run \
  rabbitmq:3.8-management
 ```
 
-
+```sh
+docker run \
+-e RABBITMQ_DEFAULT_USER=root \
+-e RABBITMQ_DEFAULT_PASS=s20WvLGx \
+-v rabbitmq-plugins:/plugins \
+--name my-rabbitmq \
+--hostname myrabbitmq \
+-p 15662:15672 \
+-p 5672:5672 \
+-d \
+ rabbitmq:4.2-management
+```
 
 
 
