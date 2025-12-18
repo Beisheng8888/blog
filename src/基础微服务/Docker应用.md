@@ -18,6 +18,10 @@ tag:
 systemctl start docker
 ```
 
+关闭容器自动重启
+```sh
+docker update --restart=no <CONTAINER ID>
+```
 
 
 
