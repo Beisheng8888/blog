@@ -330,7 +330,17 @@ docker run \
  rabbitmq:4.2-management
 ```
 
+## Databasus  数据库备份工具
 
+
+```sh
+docker run -d \
+  --name databasus \
+  -p 4005:4005 \
+  -v /usr/local/research/db-back-up:/databasus-data \
+  --restart unless-stopped \
+  databasus/databasus:latest
+```
 
 
 
