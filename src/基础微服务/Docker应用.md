@@ -343,6 +343,30 @@ docker run -d \
 ```
 
 
+## jupyter  服务器运维
+
+### 本地环境
+```sh
+docker run -d --name jupyter \
+  -v /Users/beisheng/MyProjects/docker-con/jupyter:/home/jovyan/work \
+  -p 8090:8888 \
+  -e JUPYTER_ENABLE_LAB=yes \
+  jupyter/datascience-notebook:latest
+```
+
+### 生产环境
+```sh
+docker run -d --name jupyter \
+  -v /usr:/home/jovyan/work \
+  -p 8090:8888 \
+  -e JUPYTER_ENABLE_LAB=yes \
+  jupyter/datascience-notebook:latest
+```
+
+查看token 设置密码 生产环境密码jh1332...
+```sh
+docker logs jupyter
+```
 
 
 
